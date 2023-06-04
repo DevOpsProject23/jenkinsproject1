@@ -1,0 +1,14 @@
+pipelie
+{
+agent any
+stages
+{
+stage("contdownload")
+{
+steps
+{
+git branch: 'main', url: 'https://github.com/pkr1977/project3.git'
+}
+}
+}
+}
